@@ -1,0 +1,80 @@
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+}
+
+.intro-g1 {
+    display: flex;
+    width: 100%;
+    padding: 30px 127px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clarifion-logo {
+    width: 192px;
+    height: 36px;
+}
+
+.g1-rh-logos img {
+    margin: 0 16px;
+}
+
+.intro-g2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.intro-g2 p:first-child {
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 48px */
+    text-transform: capitalize;
+    margin: 12px;
+}
+
+.intro-g2 p:nth-child(2) {
+    color: #4D5254;
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 24px */
+    text-transform: capitalize;
+    margin: 12px;
+}
+
+.intro-g3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 24px;
+}
+
+.intro-g3 div {
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 22px */
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.g3-icons {
+    height: 40px;
+    margin: 0 10px;
+}
